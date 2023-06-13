@@ -2,8 +2,6 @@
 *{
     margin:0;
     box-sizing: border-box;
-}
-body{
     font-family: 'Lora', serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -13,11 +11,7 @@ header{
     line-height:100px;
     margin:10px 0 0 20px;
 }
-#color-back{
-    height: 50px;
-    background-color: lightgray;
-   
-}
+
         /*Header*/
 h1{
     display: inline-block;
@@ -29,10 +23,19 @@ img{
     height: 70px;
     vertical-align: middle;   
 }
+    /*--Main--*/
+#color-back{
+    padding: 50px 0;
+    height: 100%;
+    background-color: rgb(244, 236, 236);
+   
+}
 .big-conteiner{
     width: 1000px;
     margin: auto;
     border-radius: 10px;
+    background-color: white;
+    padding-bottom: 25px;
 }
 .conteiner{
     border-bottom: 1px solid lightgray;
@@ -51,7 +54,10 @@ img{
 button{
     padding: 10px 15px;
     border-radius: 5px;
-    margin: 10px 5px;  
+    margin: 10px 5px; 
+    font-weight: bold;
+    word-spacing: 2px;
+    letter-spacing: 1px;
 }
 h2{
     margin: 50px 0 20px;
@@ -69,7 +75,7 @@ h2{
     text-align: center;
     margin-right: 10px;
     color:rgb(7, 119, 7);
-    font-style: italic;
+    font-style: normal;
 }
 .size{
     font-size: 1.5rem;
@@ -80,6 +86,7 @@ h2{
     border: 0px;
     padding: 10px 15px;
     border-radius: 1.25em;
+    letter-spacing: 1px;
 }
 .back-blue{
         background-color: #47ADF1;
@@ -93,7 +100,12 @@ h2{
 .back-orange{
     background-color: #F29E33;
 }
+.back-pink{
+    background-color:#D863A0;
+}
+.back-lightgreen{
+    background-color: rgb(62, 227, 62);
+}
 .space-top{
     margin-top: 25px;
 }
-
