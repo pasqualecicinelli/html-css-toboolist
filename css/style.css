@@ -66,16 +66,23 @@ h2{
     margin:0 0 50px 50px;
     color: #444851;
 }
-.check{
+.check, .cross{
     width: 22px;
     background-color: white;
     border-radius: 50%;
-    border: 1px solid rgb(7, 119, 7);
+    font-style: normal;
     display:inline-block;
     text-align: center;
     margin-right: 10px;
+}
+.check{
     color:rgb(7, 119, 7);
-    font-style: normal;
+    border: 1px solid rgb(7, 119, 7);
+}
+.cross{
+    color: red;
+    border: 1px solid red;
+
 }
 .size{
     font-size: 1.5rem;
