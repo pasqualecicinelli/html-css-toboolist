@@ -1,0 +1,73 @@
+        /*Rules Html*/
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 100px;
+    line-height:100px;
+    margin:10px 0 0 20px;
+}
+#color-back{
+    height: 50px;
+    background-color: lightgray;
+   
+}
+        /*Header*/
+h1{
+    display: inline-block;
+    font-size:3rem;
+    vertical-align: middle;
+}
+
+img{
+    height: 70px;
+    vertical-align: middle;   
+}
+.big-conteiner{
+    width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+}
+.conteiner{
+    border-bottom: 1px solid lightgray;
+}
+#first-button{
+    margin:10px 0 0 50px;
+    background-color: #47ADF1;
+    color: white; 
+    border: 0px; 
+}
+#second-button{
+    background-color: white;
+    color: lightgrey;
+    border: 1px solid lightgray;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px 5px;  
+}
+h2{
+    margin: 50px 0 20px;
+}
+.margin-left{
+    margin-left:50px;
+    color: #444851;
+}
+.check{
+    width: 22px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid rgb(7, 119, 7);
+    display:inline-block;
+    text-align: center;
+    margin-right: 10px;
+    color:rgb(7, 119, 7);
+    font-style: italic;
+}
