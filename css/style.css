@@ -56,8 +56,8 @@ button{
 h2{
     margin: 50px 0 20px;
 }
-.margin-left{
-    margin-left:50px;
+.margin{
+    margin:0 0 50px 50px;
     color: #444851;
 }
 .check{
@@ -71,3 +71,29 @@ h2{
     color:rgb(7, 119, 7);
     font-style: italic;
 }
+.size{
+    font-size: 1.5rem;
+}
+.etichetta{
+    font-size: .75rem;
+    color: white; 
+    border: 0px;
+    padding: 10px 15px;
+    border-radius: 1.25em;
+}
+.back-blue{
+        background-color: #47ADF1;
+}
+.back-viola{
+    background-color: #9C72E4;
+}
+.back-green{
+    background-color: #64C0A8;
+}
+.back-orange{
+    background-color: #F29E33;
+}
+.space-top{
+    margin-top: 25px;
+}
+
