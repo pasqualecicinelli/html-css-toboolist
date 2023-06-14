@@ -2,6 +2,8 @@
 *{
     margin:0;
     box-sizing: border-box;
+}
+body{
     font-family: 'Lora', serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -11,6 +13,7 @@ header{
     line-height:100px;
     margin:10px 0 0 20px;
 }
+
 
         /*Header*/
 h1{
@@ -31,7 +34,7 @@ img{
    
 }
 .big-conteiner{
-    width: 1000px;
+    width: 50%;
     margin: auto;
     border-radius: 10px;
     background-color: white;
@@ -41,10 +44,10 @@ img{
     border-bottom: 1px solid lightgray;
 }
 #first-button{
-    margin:10px 0 0 50px;
+    margin-left: 50px;
     background-color: #47ADF1;
     color: white; 
-    border: 0px; 
+    border: 1px solid currentColor; 
 }
 #second-button{
     background-color: white;
