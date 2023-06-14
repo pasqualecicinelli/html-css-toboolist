@@ -1,0 +1,120 @@
+ /*Rules Html*/
+*{
+    margin:0;
+    box-sizing: border-box;
+     font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+ }
+ header{
+     height: 100px;
+    line-height:100px;
+      margin:10px 0 0 20px;
+}
+  
+          /*Header*/
+ h1{
+    display: inline-block;
+    font-size:3rem;
+    vertical-align: middle;
+}
+img{
+    height: 70px;
+    vertical-align: middle;   
+}
+     /*--Main--*/
+#color-back{
+    padding: 50px 0;
+    height: 100%;
+    background-color: rgb(244, 236, 236);  
+}
+
+.big-conteiner{
+    width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 25px;
+}
+.conteiner{
+    border-bottom: 1px solid lightgray;
+}
+#first-button{
+    margin:10px 0 0 50px;
+    background-color: #47ADF1;
+    color: white; 
+    border: 0px; 
+}
+ #second-button{
+    background-color: white;
+    color: lightgrey;
+    border: 1px solid lightgray;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px 5px; 
+    font-weight: bold;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+ }
+h2{
+    margin: 50px 0 20px;
+ }
+.margin{
+    margin:0 0 50px 50px;
+    color: #444851;
+}
+.check, .cross{
+    width: 22px;
+    background-color: white;
+    border-radius: 50%;
+    font-style: normal;
+    display:inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+ul,li{
+    list-style: none;
+    padding: 0;
+}
+.check{
+    color:rgb(7, 119, 7);
+    border: 1px solid rgb(7, 119, 7);
+}
+.cross{
+    color: red;
+    border: 1px solid red;        
+}
+.size{
+      font-size: 1.5rem;
+}
+.etichetta{
+    font-size: .75rem;
+    color: white; 
+    border: 0px;
+    padding: 10px 15px;
+    border-radius: 1.25em;
+    letter-spacing: 1px;
+}
+.back-blue{
+    background-color: #47ADF1;
+}
+.back-viola{
+    background-color: #9C72E4;
+}
+.back-green{
+    background-color: #64C0A8;
+}
+.back-orange{
+    background-color: #F29E33;
+}
+.back-pink{
+  background-color:#D863A0;
+}
+.back-lightgreen{
+    background-color: rgb(62, 227, 62);
+}
+.space-top{
+    margin-top: 25px;
+}
